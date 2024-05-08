@@ -2,7 +2,7 @@
 import UserListItem from "./UsersListItem" //
 
 const UserLists = () => {
-    return ( //the scroll container is notworking
+    return ( //the scroll container is working abnormally
         <div className="scroll-container"> 
 
 

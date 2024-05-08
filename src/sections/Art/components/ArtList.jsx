@@ -16,16 +16,13 @@ return (
             artist = "Artist: Gustave Caillebrotte"
             />
 
-            < PublicationHistoryList 
-            list = 'bla bla' //why cant I render this twice. I figured it only renders the last props
-            //list = 'bla bla'
-            //list = 'dwljwljdlj'
-            />
+            < PublicationHistoryList />
+            
+            
+               
+    
             
             </li>
-
-            
-            
 
         </ul>
 
