@@ -1,5 +1,5 @@
 
-import UserListItem from "./UsersListItem"
+import UserListItem from "./UsersListItem" 
 
 const UserLists = () => {
     return (
