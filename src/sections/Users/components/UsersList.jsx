@@ -1,9 +1,10 @@
 
-import UserListItem from "./UsersListItem" 
+import UserListItem from "./UsersListItem" //
 
 const UserLists = () => {
-    return (
-        <div className="scroll-container">
+    return ( //the scroll container is notworking
+        <div className="scroll-container"> 
+
 
     <ul className="users-list">
             <UserListItem
