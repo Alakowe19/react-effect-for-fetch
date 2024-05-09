@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react"
 import FavouriteSlipsList from "./FavouriteSlipsList"
 
 const AdviceSlip = ()  =>  {
