@@ -2,14 +2,14 @@ import { useState, useEffect } from 'react'
 import UserListItem from "./UsersListItem"
 
 const UserLists = () => {
-    const [users, setUsers] = useState([]); // State for storing users data, an empty array here anyways 
+    const [users, setUsers] = useState([]) // State for storing users data, an empty array here anyways 
 
     // Simulating fetching of user data from an API, however I am not using API
     useEffect(() => {
         // Fetch user data from an API endpoint
         // I tried to use my useEffect here
         const timer = setTimeout(() => {
-            const fetchedUsers = [
+            const fetchedUsers = [ //Users are declared here and stored inside fetchedUsers
                 {
                     name: 'Mr Ritty Ryan',
                     imageSrc: 'https://images.pexels.com/photos/2379429/pexels-photo-2379429.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
